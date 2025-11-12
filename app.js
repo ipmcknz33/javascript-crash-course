@@ -1,8 +1,9 @@
-// DRY = DO NOT REPEAT YOURSELF
-let number = 1;
+// *@param {number} - Temperature in Celsius
+// *@retutrn {number} - Tempature in Farhrenheit
 
-while (count <= 100) {
-    console.log(`this ran`);
-    count = count + 1;
+function convertCelsiusToFarhrenheit(celsius){
+    return celsius * 1.8 + 32;
 }
-
+console.log (convertCelsiusToFarhrenheit(0));
+console.log (convertCelsiusToFarhrenheit(10));
+console.log (convertCelsiusToFarhrenheit(30));
