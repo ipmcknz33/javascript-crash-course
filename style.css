@@ -14,13 +14,3 @@ body {
     color: black;
     transition: 0.3s;
 }
-
-.btn {
-    color: black;
-}
-.btn.is-red {
-    padding: 10px 20px;
-    margin-top: 20px;
-    color: red;
-    cursor: pointer;
-}
