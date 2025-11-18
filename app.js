@@ -1,9 +1,16 @@
-// *@param {number} - Temperature in Celsius
-// *@retutrn {number} - Tempature in Farhrenheit
+// change html
+document.querySelector(".title").innerHTML +=  "Frontend Simplified"
 
-function convertCelsiusToFarhrenheit(celsius){
-    return celsius * 1.8 + 32;
+// change css
+document.querySelector(".title").style.fontsize = '10px'
+
+function toggleButtonColor() {
+    console.log("clicked");
+   const button = document.querySelector(".btn");
+
+    button.classList.toggle("is-red"); 
 }
-console.log (convertCelsiusToFarhrenheit(0));
-console.log (convertCelsiusToFarhrenheit(10));
-console.log (convertCelsiusToFarhrenheit(30));
+
+
+
+
