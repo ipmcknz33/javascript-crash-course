@@ -1,4 +1,4 @@
-const status = document.querySelector("#status");
+const status = document.querySelector(".status");
 
 function getSubscriptionStatus() {
     return new Promise ((resolve, reject) => {
@@ -8,7 +8,7 @@ function getSubscriptionStatus() {
     });
 }
 function getVideo(getSubscriptionStatus) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => }
         if (subscriptionStatus === "VIP") {
             resolve ("show video")
         } 
