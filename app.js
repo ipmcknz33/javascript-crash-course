@@ -1,5 +1,5 @@
 function isNotZero(element) {
-    return element == 0; 
+    return element !== 0; 
     }
     
     console.log(isNotZero(5)); 
