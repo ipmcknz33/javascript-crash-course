@@ -1,10 +1,10 @@
-function sumGreaterThan100(num1, num2) {
-    return num1 + num2 > 100; 
+function lessThanOrEqualToZero(num) {
+    return num <= 0 ; 
     }
     
-    console.log(sumGreaterThan100("20,10")); 
-    console.log(sumGreaterThan100("50,60")); 
-    console.log(sumGreaterThan100("100,-50")); 
+    console.log(lessThanOrEqualToZero("3")); 
+    console.log(lessThanOrEqualToZero("0")); 
+    console.log(lessThanOrEqualToZero("-2")); 
 
 
 
