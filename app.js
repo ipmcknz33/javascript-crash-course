@@ -1,10 +1,10 @@
-function lessThanOrEqualToZero(num) {
-    return num <= 0 ; 
+function oppositeBoolean(bool) {
+    return !bool ; 
     }
     
-    console.log(lessThanOrEqualToZero("3")); 
-    console.log(lessThanOrEqualToZero("0")); 
-    console.log(lessThanOrEqualToZero("-2")); 
+    console.log(oppositeBoolean(true)); 
+    console.log(oppositeBoolean(false)); 
+    console.log(oppositeBoolean(true)); 
 
 
 
