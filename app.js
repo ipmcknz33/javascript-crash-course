@@ -1,6 +1,7 @@
-function hoursIntoSeconds(hours) {
-    return hours * 3600;
+function calcPerimeter(length, width) {
+    return perimeter = 2 * (length + width) ;
 }
-    console.log(hoursIntoSeconds(2));
-    console.log(hoursIntoSeconds(10));
-    console.log(hoursIntoSeconds(24));
+    console.log(calcPerimeter (6,7));
+    console.log(calcPerimeter(20,10));
+    console.log(calcPerimeter(2,9));
+
