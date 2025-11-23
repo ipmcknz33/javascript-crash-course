@@ -1,7 +1,10 @@
-function calcPerimeter(length, width) {
-    return perimeter = 2 * (length + width) ;
-}
-    console.log(calcPerimeter (6,7));
-    console.log(calcPerimeter(20,10));
-    console.log(calcPerimeter(2,9));
+const calcTriangleArea = (base, height) => {
+    const area = 0.5 * base * height;
+    return area};
+
+    console.log(calcTriangleArea (3,2));
+    console.log(calcTriangleArea(10,10));
+    console.log(calcTriangleArea(20,20));
+
+
 
