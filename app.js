@@ -1,10 +1,10 @@
-const calcTriangleArea = (base, height) => {
-    const area = 0.5 * base * height;
-    return area};
+function appendFrontend (str) {
+    return str + "Frontend";
+}
 
-    console.log(calcTriangleArea (3,2));
-    console.log(calcTriangleArea(10,10));
-    console.log(calcTriangleArea(20,20));
+    console.log(appendFrontend("Apple"));
+    console.log(appendFrontend("Bannana"));
+    console.log(appendFrontend("Orange"));
 
 
 
