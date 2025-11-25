@@ -1,10 +1,10 @@
-function isOdd(num) {
-    return num % 2 !== 0; 
+function booleaninterger(num) {
+    return num % 2 === 0 ? 1 : -1 ; 
     }
     
-    console.log(isOdd(1)); 
-    console.log(isOdd(2)); 
-    console.log(isOdd(3)); 
+    console.log(booleaninterger(1)); 
+    console.log(booleaninterger(2)); 
+    console.log(booleaninterger(5)); 
 
 
 
