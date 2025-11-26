@@ -1,10 +1,10 @@
-function booleaninterger(num) {
-    return num % 2 === 0 ? 1 : -1 ; 
+function isLoggedInAndSubscribed(firstString, secondString) {
+    return firstString === "LOGGED_IN" && secondString === "SUBSCRIBED";
     }
     
-    console.log(booleaninterger(1)); 
-    console.log(booleaninterger(2)); 
-    console.log(booleaninterger(5)); 
+    console.log(isLoggedInAndSubscribed('LOGGED_IN','SUBSCRIBED')); 
+    console.log(isLoggedInAndSubscribed('LOGGED_IN','NOT_SUBSCRIBED')); 
+    console.log(isLoggedInAndSubscribed('NOT_LOGGED_IN','SUBSCRIBED')); 
 
 
 
